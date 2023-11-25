@@ -24,9 +24,13 @@ public class LevelManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-         sceneIndex = SceneManager.GetActiveScene().buildIndex;
+         
     }
 
+    private void Update(){
+            sceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+    }
 
   public void LoadScene(string SceneName)
     {
