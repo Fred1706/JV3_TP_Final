@@ -1005,6 +1005,7 @@ GameObject:
   - component: {fileID: 1665424155577551598}
   - component: {fileID: 6932983325207466301}
   - component: {fileID: 7004463874270960411}
+  - component: {fileID: 6179707060097387674}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1026,7 +1027,7 @@ Transform:
   m_Children:
   - {fileID: 6159199025263629696}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6932983325207466301
 MonoBehaviour:
@@ -1059,3 +1060,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!136 &6179707060097387674
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8370528007412803458}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.75
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
