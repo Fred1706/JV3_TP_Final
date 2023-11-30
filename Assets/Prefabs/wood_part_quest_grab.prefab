@@ -119,6 +119,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4920580618931248560}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 6c5c9643b1854ba4eb9a6491424afce7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4844532171641633787}
   m_SourcePrefab: {fileID: 100100000, guid: 6c5c9643b1854ba4eb9a6491424afce7, type: 3}
 --- !u!4 &3822005277113802299 stripped
 Transform:
@@ -224,7 +228,19 @@ MonoBehaviour:
       m_Calls: []
   m_FirstSelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4844532171641633787}
+        m_TargetAssemblyTypeName: "PartieTrouv\xE9, Assembly-CSharp"
+        m_MethodName: AddPart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_LastSelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -316,3 +332,16 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &4844532171641633787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3822005277114155547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8478a4f2a15373e478d0001e2eb7b448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _infosNiv: {fileID: 11400000, guid: c27c89a8ac636d646b8b8d53def740fa, type: 2}
