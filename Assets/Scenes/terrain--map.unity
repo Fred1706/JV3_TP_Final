@@ -6737,7 +6737,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22494,7 +22494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 1292633327}
-  minHeightForDeath: 0
+  minHeightForDeath: 99
   player: {fileID: 1602305352}
 --- !u!1001 &1293670710
 PrefabInstance:
