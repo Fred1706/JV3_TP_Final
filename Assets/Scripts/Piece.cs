@@ -14,7 +14,7 @@ public class Piece : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _partie.text = "parties trouvé " + _infosNiv.nb_points + "/2";
+        _partie.text = "parties trouvï¿½ " + _infosNiv.nb_points + "/2";
 
 
     }
@@ -25,7 +25,7 @@ public class Piece : MonoBehaviour
 
         if(_infosNiv.nb_points > 0)
         {
-            _partie.text = "parties trouvé " + _infosNiv.nb_points + "/2";
+            _partie.text = "pieces trouvÃ© " + _infosNiv.nb_points + "/2";
         }
        
     }
