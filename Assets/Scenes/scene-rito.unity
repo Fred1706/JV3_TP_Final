@@ -11813,6 +11813,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623622328}
     m_Modifications:
+    - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
+        type: 3}
+      propertyPath: m_Name
+      value: Props_Bowl_Purple (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_RootOrder
@@ -11868,11 +11873,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_Name
-      value: Props_Bowl_Purple (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11898,13 +11898,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.903
       objectReference: {fileID: 0}
     - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.613
+      value: 0.7039
       objectReference: {fileID: 0}
     - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
@@ -12178,6 +12193,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623622328}
     m_Modifications:
+    - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
+        type: 3}
+      propertyPath: m_Name
+      value: Props_Bowl_Purple (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_RootOrder
@@ -12232,11 +12252,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_Name
-      value: Props_Bowl_Purple (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
