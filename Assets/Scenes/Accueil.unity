@@ -1395,7 +1395,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556648282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0000059605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1404,8 +1404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.6, y: 7.5}
-  m_SizeDelta: {x: 156.34, y: 50}
+  m_AnchoredPosition: {x: -40.385002, y: 24.999996}
+  m_SizeDelta: {x: 80.77, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556648284
 MonoBehaviour:
@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 72.98366, w: 36.530964}
+  m_margin: {x: 0, y: 0, z: 0.06947136, w: 26.52785}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2603,7 +2603,7 @@ MonoBehaviour:
   m_CheckFor3DOcclusion: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_RaycastTriggerInteraction: 1
 --- !u!1 &1235840373
 GameObject:
@@ -3655,7 +3655,7 @@ GameObject:
   - component: {fileID: 2099589718}
   - component: {fileID: 2099589717}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: MusiqueAccueil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3674,7 +3674,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 939d51bcb65b0f1489d067646010ec1e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.556
   m_Pitch: 1
   Loop: 1
   Mute: 0
