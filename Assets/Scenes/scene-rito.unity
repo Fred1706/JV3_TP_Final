@@ -10345,6 +10345,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: c27c89a8ac636d646b8b8d53def740fa,
         type: 2}
+    - target: {fileID: 7371464383701848386, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
+        type: 3}
+      propertyPath: m_text
+      value: Rito Blandon
+      objectReference: {fileID: 0}
     - target: {fileID: 8136537028215602228, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
         type: 3}
       propertyPath: m_Name
