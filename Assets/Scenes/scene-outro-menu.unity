@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 11156994}
   - component: {fileID: 11156993}
   - component: {fileID: 11156992}
+  - component: {fileID: 11156997}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -248,6 +249,19 @@ RectTransform:
   m_AnchoredPosition: {x: -8.74, y: 1.42}
   m_SizeDelta: {x: 2.56, y: 1.74}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &11156997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11156991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea292ae36f402647b3dbbf07009ccb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newGame: {fileID: 88719967}
 --- !u!4 &13822763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4315287027980304, guid: 2d0f20d11945dcf40bc89cbe6339221c,
@@ -702,6 +716,7 @@ GameObject:
   - component: {fileID: 88719969}
   - component: {fileID: 88719968}
   - component: {fileID: 88719967}
+  - component: {fileID: 88719970}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -751,7 +766,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.31764707, g: 0.19607845, b: 0.121568635, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -773,7 +788,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 88719968}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 88719965}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &88719968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,6 +839,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88719965}
   m_CullTransparentMesh: 1
+--- !u!114 &88719970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88719965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702a41856af3f6a4c960908f602f9e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NomNiveau: Accueil
 --- !u!1 &94399387
 GameObject:
   m_ObjectHideFlags: 0
@@ -3407,8 +3447,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294901502
+  m_fontColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
