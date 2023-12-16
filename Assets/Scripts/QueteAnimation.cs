@@ -20,6 +20,8 @@ public class AnimationPlay : MonoBehaviour
     {
         if(other.gameObject.tag == "Player" && _infosNiv.nb_points == 2)
         {
+            canvasObject.SetActive(false);
+            gameObject.GetComponent<AudioSource>().Play();
             anim.SetTrigger("PlayerTouch");
             
         }
