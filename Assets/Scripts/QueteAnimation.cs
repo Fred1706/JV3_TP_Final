@@ -7,10 +7,12 @@ public class AnimationPlay : MonoBehaviour
 
     public InfosNiveaux _infosNiv;
 
+    [SerializeField] GameObject canvasObject;
     private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
+        
         anim = GetComponentInChildren<Animator>();
     }
 
@@ -18,8 +20,18 @@ public class AnimationPlay : MonoBehaviour
     {
         if(other.gameObject.tag == "Player" && _infosNiv.nb_points == 2)
         {
+            canvasObject.SetActive(false);
+            gameObject.GetComponent<AudioSource>().Play();
             anim.SetTrigger("PlayerTouch");
+            
         }
+
+        if(other.gameObject.tag == "Player" && _infosNiv.nb_points < 2)
+        {
+            
+            canvasObject.SetActive(true); 
+        }
+
     }
    
     
