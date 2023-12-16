@@ -25,7 +25,7 @@ public class Décompte : MonoBehaviour
     void Start()
     {
 
-       _infosNiv.temps = _infosNiv.tempsInitial;
+       
        
     }
       
