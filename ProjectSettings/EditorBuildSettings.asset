@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene-rito.unity
     guid: 0890f527117f8e14aa7d28f7462d8255
+  - enabled: 1
+    path: Assets/Scenes/scene-outro-menu.unity
+    guid: fbd5ef55c47fcf243b2a334b65ca821e
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d64f91d6d59612a42a6f6e526d1f82ac,
       type: 2}
