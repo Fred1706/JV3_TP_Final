@@ -1,29 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class SceneFinTransition : MonoBehaviour
 {
 
+
  
+    [SerializeField] private string sceneNameToLoad;
 
-    // Start is called before the first frame update
-    void Start()
+
+ public void StartNewGame()
     {
-       
+    
+     
 
-   
+        Invoke("DelayScene", 8);
+
+      
 
     }
 
-    // Update is called once per frame
-    public void StartNewGame()
+   public void DelayScene()
     {
-       Invoke("scene-outro-menu", 15f);
-        //SceneManager.LoadScene("scene-outro-menu");
+        SceneManager.LoadScene(sceneNameToLoad);
     }
-
 
 
 
