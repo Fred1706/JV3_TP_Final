@@ -20,8 +20,8 @@ public class SceneFinTransition : MonoBehaviour
     // Update is called once per frame
     public void StartNewGame()
     {
-
-        SceneManager.LoadScene("scene-outro-menu");
+        Invoke("scene-outro-menu", 15f);
+        //SceneManager.LoadScene("scene-outro-menu");
 
     }
 
