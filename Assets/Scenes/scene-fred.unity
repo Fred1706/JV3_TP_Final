@@ -1081,6 +1081,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ef783ffa41a70847b2c259e3979722b, type: 3}
+--- !u!1 &252190742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252190744}
+  - component: {fileID: 252190743}
+  m_Layer: 0
+  m_Name: XR Interaction Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &252190743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252190742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+--- !u!4 &252190744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252190742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.041481, y: -1.517526, z: -0.10118546}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &254197640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2415,7 +2461,7 @@ PrefabInstance:
     - target: {fileID: 1665424155577551598, guid: 421e7cf7165e61741a0ee91eadaf200d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.312
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 1665424155577551598, guid: 421e7cf7165e61741a0ee91eadaf200d,
         type: 3}
@@ -2461,6 +2507,116 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Fred-Eric Auger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_Id
+      value: 790f7b39-18f3-4365-867e-3be8d10425c9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_Id
+      value: 4f1f5b2c-d34c-4f98-b8ae-f1c02fa3e40f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_Name
+      value: Position
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_Name
+      value: Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_Id
+      value: 7d4acf72-0c7d-48c0-a16b-ca120dd77387
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_ExpectedControlType
+      value: Vector3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_ExpectedControlType
+      value: Quaternion
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 93f3e926-6805-4817-b562-975545424c65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Id
+      value: 4c4a0b8a-cd08-4a84-b7ef-cbfd0b2befca
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 677af925-be98-401d-bc40-38cc44d857ab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Id
+      value: 623695a6-b25f-46f4-9cbe-845d38d9d013
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <XRHMD>/centerEyePosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <HandheldARInputDevice>/devicePosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <XRHMD>/centerEyeRotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <HandheldARInputDevice>/deviceRotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Position
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Position
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780820529681745110, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: d46b9257-e2cd-4cb8-a0e0-e86b718b9989
       objectReference: {fileID: 0}
     - target: {fileID: 6977869122962058644, guid: 421e7cf7165e61741a0ee91eadaf200d,
         type: 3}
