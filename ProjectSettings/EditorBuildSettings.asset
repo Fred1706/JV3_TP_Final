@@ -12,6 +12,19 @@ EditorBuildSettings:
     path: Assets/Scenes/terrain--map.unity
     guid: 17580ed2cc49fbd4482b0cc816f86624
   - enabled: 1
-    path: Assets/Scenes/Scene Interieur Simon.unity
+    path: Assets/Scenes/scene-simon/Scene Interieur Simon.unity
     guid: 82560784be540d24e9b6a9d344f886dc
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/scene-fred.unity
+    guid: a680303e397dd2f43bd30e33019d8d47
+  - enabled: 1
+    path: Assets/Scenes/scene-rito.unity
+    guid: 0890f527117f8e14aa7d28f7462d8255
+  - enabled: 1
+    path: Assets/Scenes/scene-outro-menu.unity
+    guid: dfb6a45a50475054b825030a611b44a1
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d64f91d6d59612a42a6f6e526d1f82ac,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 98feb8c94a53f7d468a1ec893e714625,
+      type: 2}

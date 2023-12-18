@@ -11,5 +11,6 @@ public class InfosNiveaux : ScriptableObject
     public float tempsInitial;
 
     public float nb_points;
+    
 
 }
