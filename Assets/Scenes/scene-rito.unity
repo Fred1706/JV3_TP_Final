@@ -131,6 +131,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1478733427}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &16073109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: eefec79bb2127ac43b18f4b669be81a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1533743047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &18919319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -945,7 +951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.687
+      value: 0.704
       objectReference: {fileID: 0}
     - target: {fileID: 4847494067473882, guid: 81a12ca8de8c275408c1be2ba93bb5b7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4506,6 +4512,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1533743047}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &708251853
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16073109}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: eefec79bb2127ac43b18f4b669be81a8, type: 3}
 --- !u!1 &711344594 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1407777385046858, guid: e95a480556ce77345b2be1163d17a4be,
@@ -10053,6 +10081,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: eefec79bb2127ac43b18f4b669be81a8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 708251853}
     - targetCorrespondingSourceObject: {fileID: 100002, guid: eefec79bb2127ac43b18f4b669be81a8,
         type: 3}
       insertIndex: -1
@@ -11538,11 +11570,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1801413486}
     m_Modifications:
-    - target: {fileID: 623510711772783183, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 2771349286715443592, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
         type: 3}
       propertyPath: m_Pivot.x
@@ -11648,22 +11675,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2825315939391491666, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4909507928199085758, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 5211368435642014375, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
-        type: 3}
-      propertyPath: _infosNiv
-      value: 
-      objectReference: {fileID: 11400000, guid: c27c89a8ac636d646b8b8d53def740fa,
-        type: 2}
     - target: {fileID: 7371464383701848386, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
         type: 3}
       propertyPath: m_text
@@ -11674,17 +11685,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
-    - target: {fileID: 8136537028215602228, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8367774674120014034, guid: 3cc54d8c79e6f4d4380974e33b7107ff,
-        type: 3}
-      propertyPath: _infosNiv
-      value: 
-      objectReference: {fileID: 11400000, guid: c27c89a8ac636d646b8b8d53def740fa,
-        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11794,9 +11794,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1954736583}
-  - {fileID: 1749918988}
   - {fileID: 956604401}
   - {fileID: 1511982683}
+  - {fileID: 1749918988}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12842,7 +12842,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: c9e3e5579a7796b41ad2ef8beb8b0597, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.607
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13726,11 +13726,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4839470015990678, guid: 45145d7e161280c4a9c3b644a71752ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.057799816
+      value: -0.029
       objectReference: {fileID: 0}
     - target: {fileID: 4839470015990678, guid: 45145d7e161280c4a9c3b644a71752ac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1646446
+      value: 0.413
       objectReference: {fileID: 0}
     - target: {fileID: 4839470015990678, guid: 45145d7e161280c4a9c3b644a71752ac, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15009,16 +15009,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Book_09
       objectReference: {fileID: 0}
-    - target: {fileID: 975286541758974276, guid: 94fc3d825f220a74baa596870c18fa49,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4342818680760534772, guid: 94fc3d825f220a74baa596870c18fa49,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 4854566858887618425, guid: 94fc3d825f220a74baa596870c18fa49,
         type: 3}
       propertyPath: m_RootOrder
@@ -15032,7 +15022,7 @@ PrefabInstance:
     - target: {fileID: 4854566858887618425, guid: 94fc3d825f220a74baa596870c18fa49,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.959
+      value: 0.975
       objectReference: {fileID: 0}
     - target: {fileID: 4854566858887618425, guid: 94fc3d825f220a74baa596870c18fa49,
         type: 3}
@@ -15087,20 +15077,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623622328}
     m_Modifications:
-    - target: {fileID: 6798798175603537517, guid: 22e85417ee577464f89d5604f8f8512b,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 7145619120366700396, guid: 22e85417ee577464f89d5604f8f8512b,
         type: 3}
       propertyPath: m_Name
       value: Props_PotionSmall_Blue
-      objectReference: {fileID: 0}
-    - target: {fileID: 7145619120366700396, guid: 22e85417ee577464f89d5604f8f8512b,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7145619120366934860, guid: 22e85417ee577464f89d5604f8f8512b,
         type: 3}
@@ -15115,12 +15095,12 @@ PrefabInstance:
     - target: {fileID: 7145619120366934860, guid: 22e85417ee577464f89d5604f8f8512b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.905
+      value: 0.934
       objectReference: {fileID: 0}
     - target: {fileID: 7145619120366934860, guid: 22e85417ee577464f89d5604f8f8512b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.523
+      value: -2.125
       objectReference: {fileID: 0}
     - target: {fileID: 7145619120366934860, guid: 22e85417ee577464f89d5604f8f8512b,
         type: 3}
@@ -15265,20 +15245,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623622328}
     m_Modifications:
-    - target: {fileID: 5731380690843552312, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Purple (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
@@ -15293,12 +15263,12 @@ PrefabInstance:
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.939
+      value: 0.97
       objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.495077
+      value: -2.169
       objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
@@ -15348,40 +15318,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623622328}
     m_Modifications:
-    - target: {fileID: 3437076847804317511, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3564405391328717685, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
       propertyPath: m_Name
       value: Props_Pail
       objectReference: {fileID: 0}
-    - target: {fileID: 3564405391328717685, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
       propertyPath: m_RootOrder
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
@@ -15391,7 +15336,7 @@ PrefabInstance:
     - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.945
+      value: 0.954
       objectReference: {fileID: 0}
     - target: {fileID: 3564405391328884565, guid: 782f1c70d8d249f459dd5a84a2ff90aa,
         type: 3}
@@ -15451,16 +15396,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Props_PotionSmall_Red
       objectReference: {fileID: 0}
-    - target: {fileID: 4177554723450450933, guid: 9817c3b9ba446ed4faa7801b08b7d2a6,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344479595817479022, guid: 9817c3b9ba446ed4faa7801b08b7d2a6,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6572343268743744433, guid: 9817c3b9ba446ed4faa7801b08b7d2a6,
         type: 3}
       propertyPath: m_RootOrder
@@ -15474,7 +15409,7 @@ PrefabInstance:
     - target: {fileID: 6572343268743744433, guid: 9817c3b9ba446ed4faa7801b08b7d2a6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.687
+      value: 0.7024
       objectReference: {fileID: 0}
     - target: {fileID: 6572343268743744433, guid: 9817c3b9ba446ed4faa7801b08b7d2a6,
         type: 3}
@@ -15529,20 +15464,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623622328}
     m_Modifications:
-    - target: {fileID: 5731380690843552312, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Purple
-      objectReference: {fileID: 0}
-    - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
@@ -15557,7 +15482,7 @@ PrefabInstance:
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.709
       objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
@@ -15672,11 +15597,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword
       objectReference: {fileID: 0}
-    - target: {fileID: 5400859937068763920, guid: ad4563c27c648834fa478c8b119ffc73,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15690,20 +15610,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1623622328}
     m_Modifications:
-    - target: {fileID: 5731380690843552312, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_Name
       value: Props_Bowl_Purple (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6696239116906237069, guid: 43d68453806e0ae42a554bc44f36f7bd,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
@@ -15718,7 +15628,7 @@ PrefabInstance:
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.927
+      value: 0.949
       objectReference: {fileID: 0}
     - target: {fileID: 8498044239464769856, guid: 43d68453806e0ae42a554bc44f36f7bd,
         type: 3}
