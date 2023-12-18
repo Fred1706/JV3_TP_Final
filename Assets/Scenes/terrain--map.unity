@@ -27620,6 +27620,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4215745205880738492, guid: 421e7cf7165e61741a0ee91eadaf200d,
+        type: 3}
+      propertyPath: m_text
+      value: Mathys Gosselin
+      objectReference: {fileID: 0}
     - target: {fileID: 6977869122962058644, guid: 421e7cf7165e61741a0ee91eadaf200d,
         type: 3}
       propertyPath: m_Antialiasing
